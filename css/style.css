@@ -1,0 +1,247 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 1.5rem;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .nome {
+    color: #1a1a1a;
+    font-family: 'Arial', Times;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+header nav a {
+    color: #1a1a1a;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #7aebdc;
+}
+
+.curriculo {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.curriculo h1 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.curriculo h2 {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.btn-curriculo {
+    display: inline-block;
+    background-color: #5eada3;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    transition: all 0.3s ease
+}
+
+.btn-curriculo:hover {
+    background-color: #75dfd1;
+    color: 1a1a1a;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.curriculo i {
+    margin-left: .5rem;
+}
+
+.container .sobre {  
+    background-color: #ffffff;
+    padding: 100px 150px 100px 150px;
+}
+
+.sobre .sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.sobre img {
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.sobre h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #1a1a1a;
+    font-variant: small-caps;
+    font-weight: 100;
+}
+
+.sobre p {
+    color: #4b5563;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-left: 30px;
+    letter-spacing: .07rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 16px; 
+  margin-top: 25px; 
+}
+
+.skills img {
+  transition: transform 0.3s ease;
+}
+
+.skills img:hover {
+  transform: scale(1.1);
+}
+
+main{
+    margin: auto;
+    width: fit-content;
+    
+}
+
+main h1{
+    font-size: 2.4rem;
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(61, 60, 60);
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+main .projeto {
+    background: #e5e7eb;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin: 20px;
+    border-radius: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main .projeto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .projeto h2 {
+    font-variant: small-caps;
+    color: #4b5563;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+main .projeto img {
+    border-radius: 5% 5% 0 0;
+}
+
+main .projeto p {
+    background: #4b5563;
+    padding: 8px;
+    margin: 10px 0 10px 0;
+}
+
+.contatos {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.contato h1 {
+    font-variant: small-caps;
+    font-size: 2.4rem;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+
+.contato p {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(2, 2, 2);
+}
+
+.contato p i{
+    margin: 10px;
+}
+
+.redes {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.redes a {
+  color: #5eada3;
+  font-size: 2rem;
+  transition: 0.3s ease;
+}
+
+.redes a:hover {
+  color: #72e7d8;
+  transform: translateY(-3px);
+}
+
+
+footer {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+footer p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #4b5563;
+}
